@@ -25,7 +25,7 @@ const SearchBarStyled = styled.div`
   border-radius: 30px;
   background: #1b1b1b;
   position: absolute;
-  top: 5.5rem;
+  top: 5rem;
   left: 50%;
   transform: translateX(-50%);
   display: flex;

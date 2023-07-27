@@ -46,7 +46,10 @@ function App() {
         <BottomNav tema={tema}></BottomNav>
 
         <Routes>
-          <Route path="/" element={<Home tema={tema}></Home>}></Route>
+          <Route
+            path="/psyflavlab/"
+            element={<Home tema={tema}></Home>}
+          ></Route>
         </Routes>
       </BrowserRouter>
     </>

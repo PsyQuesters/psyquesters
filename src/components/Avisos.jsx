@@ -16,7 +16,7 @@ const Avisos = ({ tema }) => {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 100000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -67,7 +67,7 @@ export default Avisos;
 
 const AvisosContainer = styled.div`
   width: 100%;
-  padding-top: 9rem;
+  padding-top: 8.5rem;
   left: 0;
 
   .slider {

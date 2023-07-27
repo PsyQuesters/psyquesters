@@ -18,7 +18,11 @@ const Nav = ({ handleTemaChange, tema, handleMenuChange, menuOpen }) => {
           }}
         />
       </Buttons>
-      <Link to="/entropia/" style={{ textDecoration: "none" }} className="link">
+      <Link
+        to="/psyflavlab/"
+        style={{ textDecoration: "none" }}
+        className="link"
+      >
         <h2>Psychedelic Flavor Lab</h2>
       </Link>
       <Buttons onClick={handleTemaChange} tema={tema}>
@@ -91,6 +95,7 @@ const Buttons = styled.div`
 
   :hover {
     cursor: pointer;
+    user-select: none;
   }
 
   .btn-tema-sun {
