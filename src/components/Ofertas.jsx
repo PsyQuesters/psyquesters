@@ -43,28 +43,238 @@ const Ofertas = ({ tema }) => {
             <PrecioYReseña>
               <h4>$7.990</h4>
               <Reseña>
-                <Icon
-                  Icon
-                  icon="ic:baseline-star"
-                  color="#ffc700"
-                  height="15"
-                />
-                <p>5</p>
-                <Icon
-                  icon="majesticons:comment-text-line"
-                  height="14"
-                  hFlip={true}
-                />
-                <p>12</p>
+                <div>
+                  <Icon
+                    Icon
+                    icon="ic:baseline-star"
+                    color="#ffc700"
+                    height="15"
+                  />
+                  <p>5</p>
+                </div>
+                <div>
+                  <Icon
+                    icon="majesticons:comment-text-line"
+                    height="14"
+                    hFlip={true}
+                  />
+                  <p>12</p>
+                </div>
               </Reseña>
             </PrecioYReseña>
           </Oferta>
 
-          <Oferta></Oferta>
-          <Oferta></Oferta>
-          <Oferta></Oferta>
-          <Oferta></Oferta>
-          <Oferta></Oferta>
+          <Oferta>
+            <Favorito>
+              <Icon
+                icon="mdi:heart-outline"
+                color="white"
+                height="21"
+                className="Fav"
+              />
+            </Favorito>
+            <ImagenProducto>
+              <img
+                src="https://th.bing.com/th/id/R.d93ca86ef38c549d6382dcbad4fe0af9?rik=kH0BuX1MMj7TBA&riu=http%3a%2f%2fwww.heladosktc.com%2fwp-content%2fuploads%2f2019%2f04%2fTRUFAS-1.png&ehk=E1Ic1UF9%2bromHlsYDuBElsa58WO7DED8nEUeslTIy6g%3d&risl=&pid=ImgRaw&r=0"
+                alt=""
+              />
+            </ImagenProducto>
+            <NombreProducto>
+              <p>Cinturón de Orión</p>
+              <Icon
+                icon="pajamas:status-health"
+                className="icon"
+                color={colorIconoTHC}
+                width="12"
+              ></Icon>
+            </NombreProducto>
+
+            <DescripcionProducto>
+              <p>Mix de Trufas</p>
+            </DescripcionProducto>
+
+            <PrecioYReseña>
+              <h4>$9.990</h4>
+              <Reseña>
+                <div>
+                  <Icon
+                    Icon
+                    icon="ic:baseline-star"
+                    color="#ffc700"
+                    height="15"
+                  />
+                  <p>5</p>
+                </div>
+                <div>
+                  <Icon
+                    icon="majesticons:comment-text-line"
+                    height="14"
+                    hFlip={true}
+                  />
+                  <p>12</p>
+                </div>
+              </Reseña>
+            </PrecioYReseña>
+          </Oferta>
+
+          <Oferta>
+            <Favorito>
+              <Icon
+                icon="mdi:heart-outline"
+                color="white"
+                height="21"
+                className="Fav"
+              />
+            </Favorito>
+            <ImagenProducto>
+              <img
+                src="https://purepng.com/public/uploads/large/purepng.com-cupcakefood-cake-bakery-sweet-cupcake-941524636999yoyhu.png"
+                alt=""
+              />
+            </ImagenProducto>
+            <NombreProducto>
+              <p>Alfa Centauri</p>
+              <Icon
+                icon="pajamas:status-health"
+                className="icon"
+                color={colorIconoTHC}
+                width="12"
+              ></Icon>
+            </NombreProducto>
+
+            <DescripcionProducto>
+              <p>Pingüino Vegano</p>
+            </DescripcionProducto>
+
+            <PrecioYReseña>
+              <h4>$5.990</h4>
+              <Reseña>
+                <div>
+                  <Icon
+                    Icon
+                    icon="ic:baseline-star"
+                    color="#ffc700"
+                    height="15"
+                  />
+                  <p>5</p>
+                </div>
+                <div>
+                  <Icon
+                    icon="majesticons:comment-text-line"
+                    height="14"
+                    hFlip={true}
+                  />
+                  <p>12</p>
+                </div>
+              </Reseña>
+            </PrecioYReseña>
+          </Oferta>
+
+          <Oferta>
+            <Favorito>
+              <Icon
+                icon="mdi:heart-outline"
+                color="white"
+                height="21"
+                className="Fav"
+              />
+            </Favorito>
+            <ImagenProducto>
+              <img
+                src="https://th.bing.com/th/id/R.c65c3f9dff800630318c85059d12aba8?rik=c6PlG6E9rkNFaQ&pid=ImgRaw&r=0&sres=1&sresct=1"
+                alt=""
+              />
+            </ImagenProducto>
+            <NombreProducto>
+              <p>0° Kelvin</p>
+              <Icon
+                icon="pajamas:status-health"
+                className="icon"
+                color={colorIconoTHC}
+                width="12"
+              ></Icon>
+            </NombreProducto>
+
+            <DescripcionProducto>
+              <p>Galleta Helada</p>
+            </DescripcionProducto>
+
+            <PrecioYReseña>
+              <h4>$7.990</h4>
+              <Reseña>
+                <div>
+                  <Icon
+                    Icon
+                    icon="ic:baseline-star"
+                    color="#ffc700"
+                    height="15"
+                  />
+                  <p>5</p>
+                </div>
+                <div>
+                  <Icon
+                    icon="majesticons:comment-text-line"
+                    height="14"
+                    hFlip={true}
+                  />
+                  <p>12</p>
+                </div>
+              </Reseña>
+            </PrecioYReseña>
+          </Oferta>
+
+          <Oferta>
+            <Favorito>
+              <Icon
+                icon="mdi:heart-outline"
+                color="white"
+                height="21"
+                className="Fav"
+              />
+            </Favorito>
+            <ImagenProducto>
+              <img
+                src="https://th.bing.com/th/id/R.6d5baf6a867ce358686573d48c010d83?rik=%2ffMpMiUFAykapA&pid=ImgRaw&r=0"
+                alt=""
+              />
+            </ImagenProducto>
+            <NombreProducto>
+              <p>Cooper</p>
+              <Icon
+                icon="pajamas:status-health"
+                className="icon"
+                color={colorIconoTHC}
+                width="12"
+              ></Icon>
+            </NombreProducto>
+
+            <DescripcionProducto>
+              <p>Queque de chocolate plátano</p>
+            </DescripcionProducto>
+
+            <PrecioYReseña>
+              <h4>$7.990</h4>
+              <Reseña>
+                <div>
+                  <Icon
+                    Icon
+                    icon="ic:baseline-star"
+                    color="#ffc700"
+                    height="15"
+                  />
+                  <p>5</p>
+                </div>
+                <div>
+                  <Icon
+                    icon="majesticons:comment-text-line"
+                    height="14"
+                    hFlip={true}
+                  />
+                  <p>12</p>
+                </div>
+              </Reseña>
+            </PrecioYReseña>
+          </Oferta>
         </SubContainer>
       </ContainerOfertas>
     </Container>
@@ -104,6 +314,9 @@ const Oferta = styled.div`
   padding: 10px;
   background: var(--Item);
   border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 
   .Fav {
     right: 0;
@@ -161,12 +374,19 @@ const PrecioYReseña = styled.div`
 `;
 
 const Reseña = styled.div`
-  width: 45%;
+  width: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 
   p {
     font-size: 0.7rem;
+  }
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
   }
 `;
