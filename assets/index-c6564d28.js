@@ -294,4 +294,4 @@ Error generating stack: `+o.message+`
   .catalogo {
     transform: translateY(-8px);
   }
-`;function lS(){const[e,t]=I.useState("dark"),n=()=>{t(e==="dark"?"light":"dark")},[r,i]=I.useState("closed"),o=()=>{i(r==="closed"?"open":"closed")};return M.jsx(M.Fragment,{children:M.jsxs(n0,{children:[M.jsx(m1,{}),M.jsx(s0,{tema:e}),M.jsx(p1,{tema:e,handleTemaChange:n,menuOpen:r,handleMenuChange:o}),M.jsx(iS,{tema:e}),M.jsx(Kv,{children:M.jsx($p,{path:"/",element:M.jsx(rS,{tema:e})})})]})})}Wl.createRoot(document.getElementById("root")).render(M.jsx(B.StrictMode,{children:M.jsx(lS,{})}));
+`;function lS(){const[e,t]=I.useState("dark"),n=()=>{t(e==="dark"?"light":"dark")},[r,i]=I.useState("closed"),o=()=>{i(r==="closed"?"open":"closed")};return M.jsx(M.Fragment,{children:M.jsxs(n0,{children:[M.jsx(m1,{}),M.jsx(s0,{tema:e}),M.jsx(p1,{tema:e,handleTemaChange:n,menuOpen:r,handleMenuChange:o}),M.jsx(iS,{tema:e}),M.jsx(Kv,{children:M.jsx($p,{path:"/psyflavlab/",element:M.jsx(rS,{tema:e})})})]})})}Wl.createRoot(document.getElementById("root")).render(M.jsx(B.StrictMode,{children:M.jsx(lS,{})}));
