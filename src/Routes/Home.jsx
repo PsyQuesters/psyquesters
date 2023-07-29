@@ -11,9 +11,9 @@ const Home = ({ tema }) => {
 
       <Avisos tema={tema}></Avisos>
 
-      <Lineas tema={tema}></Lineas>
+      {/* <Lineas tema={tema}></Lineas> */}
 
-      <Ofertas tema={tema}></Ofertas>
+      {/* <Ofertas tema={tema}></Ofertas> */}
     </div>
   );
 };

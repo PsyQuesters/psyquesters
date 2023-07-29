@@ -6,13 +6,13 @@ const SearchBar = () => {
   return (
     <SearchBarStyled>
       <Icon
-        icon="ion:search"
+        icon="game-icons:ufo"
         style={{
           fontSize: "1rem",
           marginRight: "5px",
         }}
       />
-      Buscar su cosita por ahí
+      Buscar...
     </SearchBarStyled>
   );
 };

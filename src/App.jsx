@@ -47,7 +47,7 @@ function App() {
 
         <Routes>
           <Route
-            path="/psyflavlab/"
+            path="/psyquesters/"
             element={<Home tema={tema}></Home>}
           ></Route>
         </Routes>

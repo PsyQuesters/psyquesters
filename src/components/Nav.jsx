@@ -23,11 +23,11 @@ const Nav = ({ handleTemaChange, tema, handleMenuChange, menuOpen }) => {
         style={{ textDecoration: "none" }}
         className="link"
       >
-        <h2>Psychedelic Flavor Lab</h2>
+        <h2>PsyQuesters</h2>
       </Link>
       <Buttons onClick={handleTemaChange} tema={tema}>
         <Icon
-          icon={tema === "dark" ? "ri:sun-fill" : "ri:moon-fill"}
+          icon={tema === "dark" ? "game-icons:sun" : "game-icons:star-swirl"}
           className={tema === "dark" ? "btn-tema-sun" : "btn-tema-moon"}
           style={{
             color: tema === "dark" ? "white" : "var(--blackColor)",
@@ -61,8 +61,8 @@ const NavStyle = styled.div`
     text-decoration: none;
 
     h2 {
-      width: 10rem;
-      font-size: 0.9rem;
+      width: 20rem;
+      font-size: 1.1rem;
       font-family: "Varino";
       text-align: center;
       color: ${(props) =>
