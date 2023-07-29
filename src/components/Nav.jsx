@@ -23,11 +23,19 @@ const Nav = ({ handleTemaChange, tema, handleMenuChange, menuOpen }) => {
         style={{ textDecoration: "none" }}
         className="link"
       >
-        <h2>PsyQuesters</h2>
+        <img
+          src="https://appentropia.s3.amazonaws.com/psyquesters.png"
+          alt=""
+        />
       </Link>
       <Buttons onClick={handleTemaChange} tema={tema}>
         <Icon
-          icon={tema === "dark" ? "game-icons:sun" : "game-icons:star-swirl"}
+          icon={
+            tema === "dark"
+              ? "line-md:sun-rising-filled-loop"
+              : "line-md:moon-loop"
+            /* : "game-icons:star-swirl" */
+          }
           className={tema === "dark" ? "btn-tema-sun" : "btn-tema-moon"}
           style={{
             color: tema === "dark" ? "white" : "var(--blackColor)",
@@ -60,13 +68,9 @@ const NavStyle = styled.div`
   .link {
     text-decoration: none;
 
-    h2 {
-      width: 20rem;
-      font-size: 1.1rem;
-      font-family: "Varino";
-      text-align: center;
-      color: ${(props) =>
-        props.tema === "dark" ? "var(--whiteColor)" : "var(--blackColor)"};
+    img {
+      width: 11rem;
+      filter: ${(props) => (props.tema === "dark" ? "" : "invert(1)")};
     }
   }
 

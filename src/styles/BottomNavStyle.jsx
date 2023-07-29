@@ -30,6 +30,6 @@ export const Button = styled.div`
   }
 
   .catalogo {
-    transform: translateY(-8px);
+    transform: translateY(-6px);
   }
 `;

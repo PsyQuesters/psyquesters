@@ -9,9 +9,9 @@ const BottomNav = ({ tema }) => {
     <ContainerNav>
       <Button>
         <Icon
-          icon="game-icons:steelwing-emblem"
+          icon="game-icons:abstract-044"
           color="white"
-          height="20"
+          height="19"
           className="Icon"
         />
         <p>Ranking</p>
@@ -31,7 +31,7 @@ const BottomNav = ({ tema }) => {
         <Icon
           icon="game-icons:double-ringed-orb"
           color="white"
-          height="20"
+          height="22"
           className="Icon catalogo"
         />
         <p>PsyQuests</p>
@@ -39,9 +39,9 @@ const BottomNav = ({ tema }) => {
 
       <Button>
         <Icon
-          icon="game-icons:bolt-shield"
+          icon="game-icons:steelwing-emblem"
           color="white"
-          height="20"
+          height="22"
           className="Icon"
         />
         <p>Facciones</p>

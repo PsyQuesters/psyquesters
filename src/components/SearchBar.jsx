@@ -6,7 +6,7 @@ const SearchBar = () => {
   return (
     <SearchBarStyled>
       <Icon
-        icon="game-icons:ufo"
+        icon="game-icons:dna1"
         style={{
           fontSize: "1rem",
           marginRight: "5px",
