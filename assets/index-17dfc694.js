@@ -150,7 +150,7 @@ Error generating stack: `+o.message+`
       }
     }
   }
-`;function d1(){const{pathname:e}=ai();return I.useEffect(()=>{window.scrollTo(0,0)},[e]),null}const p1=()=>A.jsxs(h1,{children:[A.jsx(zt,{icon:"game-icons:ufo",style:{fontSize:"1rem",marginRight:"5px"}}),"Buscar..."]}),h1=oe.div`
+`;function d1(){const{pathname:e}=ai();return I.useEffect(()=>{window.scrollTo(0,0)},[e]),null}const p1=()=>A.jsxs(h1,{children:[A.jsx(zt,{icon:"game-icons:dna1",style:{fontSize:"1rem",marginRight:"5px"}}),"Buscar..."]}),h1=oe.div`
   width: calc(100% - 2.4rem);
   height: 2.2rem;
   border-radius: 30px;
