@@ -88,18 +88,8 @@ Error generating stack: `+o.message+`
     img {
       width: 11rem;
       filter: ${e=>e.tema==="dark"?"":"invert(1)"};
+      transform: translateY(3px);
     }
-  }
-
-  .logo {
-    width: 12rem;
-    transform: translateX(-0.4rem);
-    filter: ${e=>e.tema==="dark"?"":"invert(.9)"};
-  }
-
-  @media (min-width: 1000px) {
-    padding: 1rem 15vw;
-    box-shadow: 0 2px 15px -15px black;
   }
 `,tf=oe.div`
   width: 2.5rem;
