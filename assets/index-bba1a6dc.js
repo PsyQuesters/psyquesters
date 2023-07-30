@@ -319,7 +319,7 @@ Error generating stack: `+o.message+`
       margin-left: 2px;
     }
   }
-`;const Jw=()=>O.jsxs(eS,{children:[O.jsx("h3",{}),O.jsx(tS,{children:O.jsxs(nS,{children:[O.jsx(zi,{children:O.jsx("img",{src:"https://image.lexica.art/full_jpg/022b792c-a7a2-4293-8c19-fe55ada2bb44",alt:""})}),O.jsx(zi,{children:O.jsx("img",{src:"https://image.lexica.art/full_jpg/622a06bb-7883-422e-a4f1-27ee34b3d0d5",alt:""})}),O.jsx(zi,{children:O.jsx("img",{src:"https://image.lexica.art/full_jpg/6480fb64-60ae-4fe6-895f-dbb92ef4bf20",alt:""})}),O.jsx(zi,{children:O.jsx("img",{src:"https://image.lexica.art/full_jpg/3237476f-a5eb-4c21-a2d6-3dd8f6622ea1",alt:""})})]})})]}),eS=q.div`
+`;const Jw=({tema:e})=>O.jsxs(eS,{tema:e,children:[O.jsx("h3",{}),O.jsx(tS,{children:O.jsxs(nS,{tema:e,children:[O.jsx(zi,{tema:e,children:O.jsx("img",{src:"https://image.lexica.art/full_jpg/022b792c-a7a2-4293-8c19-fe55ada2bb44",alt:""})}),O.jsx(zi,{tema:e,children:O.jsx("img",{src:"https://image.lexica.art/full_jpg/622a06bb-7883-422e-a4f1-27ee34b3d0d5",alt:""})}),O.jsx(zi,{tema:e,children:O.jsx("img",{src:"https://image.lexica.art/full_jpg/6480fb64-60ae-4fe6-895f-dbb92ef4bf20",alt:""})}),O.jsx(zi,{tema:e,children:O.jsx("img",{src:"https://image.lexica.art/full_jpg/3237476f-a5eb-4c21-a2d6-3dd8f6622ea1",alt:""})})]})})]}),eS=q.div`
   width: 100%;
   margin-bottom: 6rem;
   h3 {
@@ -341,9 +341,12 @@ Error generating stack: `+o.message+`
 `,zi=q.div`
   height: 15rem;
   width: 12rem;
+  padding: 10px;
+  /* background: ${e=>e.tema==="dark"?"var(--Item)":"var(--whiteColor)"}; */
   background: var(--Item);
   border-radius: 5px;
   display: flex;
+  box-shadow: 0 2px 5px -2px var(--Item);
   justify-content: center;
   align-items: center;
   overflow: hidden;
