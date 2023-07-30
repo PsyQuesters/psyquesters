@@ -178,13 +178,13 @@ Error generating stack: `+o.message+`
   overflow: hidden;
   display: flex;
   align-items: center;
+  justify-content: center;
 
   h3 {
     position: absolute;
-    width: 85%;
+    width: calc(100% - 5rem);
     font-size: 0.8rem;
     font-weight: 400;
-    margin-left: 1rem;
     color: white;
     filter: drop-shadow(0 1px 2px black);
   }
