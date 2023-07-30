@@ -181,7 +181,7 @@ Error generating stack: `+o.message+`
 
   h3 {
     position: absolute;
-    font-size: 2.5vw;
+    font-size: 0.8rem;
     font-weight: 400;
     padding: 1rem;
     color: white;
@@ -193,7 +193,7 @@ Error generating stack: `+o.message+`
     height: 100%;
     object-fit: cover;
   }
-`,Yw=({tema:e})=>A.jsx(Gw,{tema:e,children:A.jsxs(Oh,{spaceBetween:30,centeredSlides:!0,autoplay:{delay:5e3,disableOnInteraction:!1},pagination:{clickable:!0},navigation:!0,modules:[Ww,Hw],className:"mySwiper",children:[A.jsx(qi,{className:"slider",children:A.jsxs(Ul,{children:[A.jsx("h3",{children:"Explora los misterios del mundo real, resuelve desafiantes acertijos y conviertete en un PsyQuester"}),A.jsx("img",{src:"https://i.pinimg.com/564x/55/18/5c/55185cee09c06b618923483b3a912b60.jpg",alt:""})]})}),A.jsx(qi,{className:"slider",children:A.jsxs(Ul,{children:[A.jsx("h3",{children:"Únete o crea tu facción, compite con otros PsyQuesters y demuestra tu astucia en desafíos enigmáticos. ¿Tienes lo que se necesita?"}),A.jsx("img",{src:"https://i.pinimg.com/564x/e2/c2/8b/e2c28bf231a2e8a06d2cf3ddcd7839d7.jpg",alt:""})]})}),A.jsx(qi,{className:"slider",children:A.jsxs(Ul,{children:[A.jsx("h3",{children:"Completa desafíos y desbloquea logros épicos para obtener recompensas asombrosas y desvelar secretos inimaginables."}),A.jsx("img",{src:"https://i.pinimg.com/564x/8a/1a/f4/8a1af406736ee89c5815682c96ec6432.jpg",alt:""})]})})]})});oe.div`
+`,Yw=({tema:e})=>A.jsx(Gw,{tema:e,children:A.jsxs(Oh,{spaceBetween:30,centeredSlides:!0,autoplay:{delay:5e3,disableOnInteraction:!1},pagination:{clickable:!0},navigation:!0,modules:[Ww,Hw],className:"mySwiper",children:[A.jsx(qi,{className:"slider",children:A.jsxs(Ul,{children:[A.jsx("h3",{children:"Explora los misterios del mundo real, resuelve desafiantes acertijos y conviertete en un PsyQuester."}),A.jsx("img",{src:"https://i.pinimg.com/564x/55/18/5c/55185cee09c06b618923483b3a912b60.jpg",alt:""})]})}),A.jsx(qi,{className:"slider",children:A.jsxs(Ul,{children:[A.jsx("h3",{children:"Únete o crea tu facción, compite con otros PsyQuesters y demuestra tu astucia en desafíos enigmáticos. ¿Tienes lo que se necesita?"}),A.jsx("img",{src:"https://i.pinimg.com/564x/e2/c2/8b/e2c28bf231a2e8a06d2cf3ddcd7839d7.jpg",alt:""})]})}),A.jsx(qi,{className:"slider",children:A.jsxs(Ul,{children:[A.jsx("h3",{children:"Completa desafíos y desbloquea logros épicos para obtener recompensas asombrosas y desvelar secretos inimaginables."}),A.jsx("img",{src:"https://i.pinimg.com/564x/8a/1a/f4/8a1af406736ee89c5815682c96ec6432.jpg",alt:""})]})})]})});oe.div`
   width: 100%;
   padding: 0 1.2rem;
   margin-bottom: 10px;
