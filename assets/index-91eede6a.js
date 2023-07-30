@@ -181,9 +181,10 @@ Error generating stack: `+o.message+`
 
   h3 {
     position: absolute;
+    width: 85%;
     font-size: 0.8rem;
     font-weight: 400;
-    padding: 1rem;
+    margin-left: 1rem;
     color: white;
     filter: drop-shadow(0 1px 2px black);
   }
