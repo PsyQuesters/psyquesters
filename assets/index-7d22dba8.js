@@ -334,6 +334,7 @@ Error generating stack: `+o.message+`
 `;const iS=re.div`
   width: 100%;
   padding-top: 1rem;
+  padding-bottom: 5rem;
   left: 0;
 
   .slider {
