@@ -150,6 +150,7 @@ Error generating stack: `+o.message+`
   transform: translateX(-50%);
   display: flex;
   align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.127) 0px 2px 8px 0px;
   padding: 0 1rem;
   font-size: 0.8rem;
   /* box-shadow: 0 2px 8px -5px var(--Item); */
@@ -186,6 +187,7 @@ Error generating stack: `+o.message+`
     ${e=>e.tema==="dark"?"var(--Border)":"var(--BorderLight)"};
   padding: 7px;
   justify-content: center;
+  box-shadow: rgba(99, 99, 99, 0.127) 0px 2px 8px 0px;
 
   h3 {
     position: absolute;
@@ -226,6 +228,7 @@ Error generating stack: `+o.message+`
   width: 33%;
   height: 3rem;
   border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.127) 0px 2px 8px 0px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -385,7 +388,7 @@ Error generating stack: `+o.message+`
     border: 1px solid
       ${e=>e.tema==="dark"?"var(--Border)":"var(--BorderLight)"};
   }
-`,oS=({tema:e})=>M.jsx(iS,{tema:e,children:M.jsxs(yu,{effect:"coverflow",centeredSlides:!0,autoplay:{delay:5e3,disableOnInteraction:!1},slidesPerView:2,coverflowEffect:{rotate:50,stretch:0,depth:100,modifier:1,slideShadows:!0},navigation:!0,modules:[jh,Zw],className:"mySwiper",children:[M.jsx(un,{className:"slider",children:M.jsxs(Ws,{tema:e,children:[M.jsx("h3",{children:"Buena"}),M.jsx("img",{src:"https://image.lexica.art/full_jpg/022b792c-a7a2-4293-8c19-fe55ada2bb44",alt:""})]})}),M.jsx(un,{className:"slider",children:M.jsxs(Ws,{tema:e,children:[M.jsx("h3",{children:"Compare"}),M.jsx("img",{src:"https://image.lexica.art/full_jpg/edce22fd-492d-4b85-99a1-016ef42fe431",alt:""})]})}),M.jsx(un,{className:"slider",children:M.jsxs(Ws,{tema:e,children:[M.jsx("h3",{children:"Como tamo"}),M.jsx("img",{src:"https://image.lexica.art/full_jpg/380f26dc-c0f3-4d8a-8e8d-adf28e2867ca",alt:""})]})})]})}),sS=({tema:e})=>M.jsxs("div",{children:[M.jsx(w1,{tema:e}),M.jsx(eS,{tema:e}),M.jsx(rS,{tema:e}),M.jsx(oS,{tema:e})]}),lS=re.div`
+`,oS=({tema:e})=>M.jsx(iS,{tema:e,children:M.jsxs(yu,{effect:"coverflow",centeredSlides:!0,autoplay:{delay:5e3,disableOnInteraction:!1},slidesPerView:2,coverflowEffect:{rotate:60,stretch:0,depth:100,modifier:2,slideShadows:!0},navigation:!0,modules:[jh,Zw],className:"mySwiper",children:[M.jsx(un,{className:"slider",children:M.jsxs(Ws,{tema:e,children:[M.jsx("h3",{children:"Buena"}),M.jsx("img",{src:"https://image.lexica.art/full_jpg/022b792c-a7a2-4293-8c19-fe55ada2bb44",alt:""})]})}),M.jsx(un,{className:"slider",children:M.jsxs(Ws,{tema:e,children:[M.jsx("h3",{children:"Compare"}),M.jsx("img",{src:"https://image.lexica.art/full_jpg/edce22fd-492d-4b85-99a1-016ef42fe431",alt:""})]})}),M.jsx(un,{className:"slider",children:M.jsxs(Ws,{tema:e,children:[M.jsx("h3",{children:"Como tamo"}),M.jsx("img",{src:"https://image.lexica.art/full_jpg/380f26dc-c0f3-4d8a-8e8d-adf28e2867ca",alt:""})]})})]})}),sS=({tema:e})=>M.jsxs("div",{children:[M.jsx(w1,{tema:e}),M.jsx(eS,{tema:e}),M.jsx(rS,{tema:e}),M.jsx(oS,{tema:e})]}),lS=re.div`
   position: fixed;
   width: 100%;
   height: 4rem;
