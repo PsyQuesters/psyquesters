@@ -390,14 +390,15 @@ Error generating stack: `+o.message+`
   width: 100%;
   height: 4rem;
   bottom: 0;
-  background: ${e=>e.tema==="dark"?"var(--blackColor)":"var(--Border)"};
+  background: ${e=>e.tema==="dark"?"var(--blackColor)":"var(--NavLight)"};
   left: 0;
   z-index: 1000;
   display: flex;
   backdrop-filter: blur(10px);
   justify-content: space-around;
   align-items: center;
-  border-top: 1px solid #ffffff2b;
+  border-top: 1px solid
+    ${e=>e.tema==="dark"?"#ffffff2b":"var(--BorderLight)"};
 `,mr=re.div`
   display: flex;
   align-items: center;
