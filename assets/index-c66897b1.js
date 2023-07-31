@@ -201,8 +201,10 @@ Error generating stack: `+o.message+`
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
+    border: 1px solid
+      ${e=>e.tema==="dark"?"var(--Border)":"var(--BorderLight)"};
   }
-`,eS=({tema:e})=>M.jsx(Jw,{tema:e,children:M.jsxs(yu,{spaceBetween:30,centeredSlides:!0,autoplay:{delay:5e3,disableOnInteraction:!1},pagination:{clickable:!0},navigation:!0,modules:[jh,Xw],className:"mySwiper",children:[M.jsx(un,{className:"slider",children:M.jsxs(Us,{children:[M.jsx("h3",{children:"Explora los misterios del mundo real, resuelve desafiantes acertijos y conviertete en un PsyQuester."}),M.jsx("img",{src:"https://i.pinimg.com/564x/1b/5c/24/1b5c243eb2e560ddf0592dcb211804ec.jpg",alt:""})]})}),M.jsx(un,{className:"slider",children:M.jsxs(Us,{children:[M.jsx("h3",{children:"Únete o crea tu facción, compite con otros PsyQuesters y demuestra tu astucia en desafíos enigmáticos. ¿Tienes lo que se necesita?"}),M.jsx("img",{src:"https://i.pinimg.com/564x/aa/42/94/aa4294cb24633f7cba4367b7d39f6cbd.jpg",alt:""})]})}),M.jsx(un,{className:"slider",children:M.jsxs(Us,{children:[M.jsx("h3",{children:"Completa desafíos y desbloquea logros épicos para obtener recompensas asombrosas y desvelar secretos inimaginables."}),M.jsx("img",{src:"https://i.pinimg.com/564x/e9/d5/07/e9d507ed1ad1490d7a90d990b39e4b25.jpg",alt:""})]})})]})}),tS=re.div`
+`,eS=({tema:e})=>M.jsx(Jw,{tema:e,children:M.jsxs(yu,{spaceBetween:30,centeredSlides:!0,autoplay:{delay:5e3,disableOnInteraction:!1},pagination:{clickable:!0},navigation:!0,modules:[jh,Xw],className:"mySwiper",children:[M.jsx(un,{className:"slider",children:M.jsxs(Us,{tema:e,children:[M.jsx("h3",{children:"Explora los misterios del mundo real, resuelve desafiantes acertijos y conviertete en un PsyQuester."}),M.jsx("img",{src:"https://i.pinimg.com/564x/1b/5c/24/1b5c243eb2e560ddf0592dcb211804ec.jpg",alt:""})]})}),M.jsx(un,{className:"slider",children:M.jsxs(Us,{tema:e,children:[M.jsx("h3",{children:"Únete o crea tu facción, compite con otros PsyQuesters y demuestra tu astucia en desafíos enigmáticos. ¿Tienes lo que se necesita?"}),M.jsx("img",{src:"https://i.pinimg.com/564x/aa/42/94/aa4294cb24633f7cba4367b7d39f6cbd.jpg",alt:""})]})}),M.jsx(un,{className:"slider",children:M.jsxs(Us,{tema:e,children:[M.jsx("h3",{children:"Completa desafíos y desbloquea logros épicos para obtener recompensas asombrosas y desvelar secretos inimaginables."}),M.jsx("img",{src:"https://i.pinimg.com/564x/e9/d5/07/e9d507ed1ad1490d7a90d990b39e4b25.jpg",alt:""})]})})]})}),tS=re.div`
   width: 100%;
   padding: 0 1.2rem;
   margin-bottom: 10px;
@@ -334,8 +336,8 @@ Error generating stack: `+o.message+`
 `;const iS=re.div`
   width: 100%;
   padding-top: 1rem;
-  padding-bottom: 5rem;
   left: 0;
+  padding-bottom: 7rem;
 
   .slider {
     height: 15rem;
@@ -346,6 +348,7 @@ Error generating stack: `+o.message+`
       ${e=>e.tema==="dark"?"var(--Border)":"var(--BorderLight)"};
     border-radius: 10px;
     align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
 
   .swiper-pagination-bullet {
@@ -358,14 +361,11 @@ Error generating stack: `+o.message+`
 `,Ws=re.div`
   width: 100%;
   height: 100%;
-  border-radius: 6px;
+  border-radius: 5px;
   overflow: hidden;
   display: flex;
   align-items: center;
-  box-shadow: 0 2px 5px -2px var(--Item);
   justify-content: center;
-  border: 1px solid
-    ${e=>e.tema==="dark"?"var(--Border)":"var(--BorderLight)"};
 
   h3 {
     position: absolute;
@@ -381,15 +381,20 @@ Error generating stack: `+o.message+`
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid
+      ${e=>e.tema==="dark"?"var(--Border)":"var(--BorderLight)"};
   }
-`,oS=({tema:e})=>M.jsx(iS,{tema:e,children:M.jsxs(yu,{effect:"coverflow",centeredSlides:!0,autoplay:{delay:5e3,disableOnInteraction:!1},slidesPerView:2,coverflowEffect:{rotate:50,stretch:0,depth:100,modifier:1,slideShadows:!0},navigation:!0,modules:[jh,Zw],className:"mySwiper",children:[M.jsx(un,{className:"slider",children:M.jsxs(Ws,{children:[M.jsx("h3",{children:"Buena"}),M.jsx("img",{src:"https://image.lexica.art/full_jpg/022b792c-a7a2-4293-8c19-fe55ada2bb44",alt:""})]})}),M.jsx(un,{className:"slider",children:M.jsxs(Ws,{children:[M.jsx("h3",{children:"Compare"}),M.jsx("img",{src:"https://image.lexica.art/full_jpg/edce22fd-492d-4b85-99a1-016ef42fe431",alt:""})]})}),M.jsx(un,{className:"slider",children:M.jsxs(Ws,{children:[M.jsx("h3",{children:"Como tamo"}),M.jsx("img",{src:"https://image.lexica.art/full_jpg/380f26dc-c0f3-4d8a-8e8d-adf28e2867ca",alt:""})]})})]})}),sS=({tema:e})=>M.jsxs("div",{children:[M.jsx(w1,{tema:e}),M.jsx(eS,{tema:e}),M.jsx(rS,{tema:e}),M.jsx(oS,{tema:e})]}),lS=re.div`
+`,oS=({tema:e})=>M.jsx(iS,{tema:e,children:M.jsxs(yu,{effect:"coverflow",centeredSlides:!0,autoplay:{delay:5e3,disableOnInteraction:!1},slidesPerView:2,coverflowEffect:{rotate:50,stretch:0,depth:100,modifier:1,slideShadows:!0},navigation:!0,modules:[jh,Zw],className:"mySwiper",children:[M.jsx(un,{className:"slider",children:M.jsxs(Ws,{tema:e,children:[M.jsx("h3",{children:"Buena"}),M.jsx("img",{src:"https://image.lexica.art/full_jpg/022b792c-a7a2-4293-8c19-fe55ada2bb44",alt:""})]})}),M.jsx(un,{className:"slider",children:M.jsxs(Ws,{tema:e,children:[M.jsx("h3",{children:"Compare"}),M.jsx("img",{src:"https://image.lexica.art/full_jpg/edce22fd-492d-4b85-99a1-016ef42fe431",alt:""})]})}),M.jsx(un,{className:"slider",children:M.jsxs(Ws,{tema:e,children:[M.jsx("h3",{children:"Como tamo"}),M.jsx("img",{src:"https://image.lexica.art/full_jpg/380f26dc-c0f3-4d8a-8e8d-adf28e2867ca",alt:""})]})})]})}),sS=({tema:e})=>M.jsxs("div",{children:[M.jsx(w1,{tema:e}),M.jsx(eS,{tema:e}),M.jsx(rS,{tema:e}),M.jsx(oS,{tema:e})]}),lS=re.div`
   position: fixed;
   width: 100%;
   height: 4rem;
   bottom: 0;
-  background: var(--blackColor);
+  background: ${e=>e.tema==="dark"?"var(--blackColor)":"var(--Border)"};
   left: 0;
+  z-index: 1000;
   display: flex;
+  backdrop-filter: blur(10px);
   justify-content: space-around;
   align-items: center;
   border-top: 1px solid #ffffff2b;
@@ -398,6 +403,7 @@ Error generating stack: `+o.message+`
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+  color: ${e=>e.tema==="dark"?"var(--textLight)":"var(--Item)"};
 
   p {
     font-size: 0.5rem;
@@ -412,4 +418,4 @@ Error generating stack: `+o.message+`
   .catalogo {
     transform: translateY(-6px);
   }
-`,aS=({tema:e})=>M.jsxs(lS,{tema:e,children:[M.jsxs(mr,{children:[M.jsx(et,{icon:"game-icons:abstract-044",color:"white",height:"19",className:"Icon"}),M.jsx("p",{children:"Ranking"})]}),M.jsxs(mr,{children:[M.jsx(et,{icon:"game-icons:burning-book",color:"white",height:"20",className:"Icon"}),M.jsx("p",{children:"Colecciones"})]}),M.jsxs(mr,{children:[M.jsx(et,{icon:"game-icons:double-ringed-orb",color:"white",height:"22",className:"Icon catalogo"}),M.jsx("p",{children:"PsyQuests"})]}),M.jsxs(mr,{children:[M.jsx(et,{icon:"game-icons:steelwing-emblem",color:"white",height:"22",className:"Icon"}),M.jsx("p",{children:"Facciones"})]}),M.jsxs(mr,{children:[M.jsx(et,{icon:"game-icons:rear-aura",color:"white",height:"20",className:"Icon"}),M.jsx("p",{children:"Perfil"})]})]});function uS(){const[e,t]=_.useState("dark"),n=()=>{t(e==="dark"?"light":"dark")},[r,i]=_.useState("closed"),o=()=>{i(r==="closed"?"open":"closed")};return M.jsx(M.Fragment,{children:M.jsxs(o0,{children:[M.jsx(y1,{}),M.jsx(c0,{tema:e}),M.jsx(g1,{tema:e,handleTemaChange:n,menuOpen:r,handleMenuChange:o}),M.jsx(aS,{tema:e}),M.jsx(Jv,{children:M.jsx(bp,{path:"/psyquesters/",element:M.jsx(sS,{tema:e})})})]})})}Gs.createRoot(document.getElementById("root")).render(M.jsx(B.StrictMode,{children:M.jsx(uS,{})}));
+`,aS=({tema:e})=>M.jsxs(lS,{tema:e,children:[M.jsxs(mr,{tema:e,children:[M.jsx(et,{icon:"game-icons:abstract-044",height:"19",className:"Icon"}),M.jsx("p",{children:"Ranking"})]}),M.jsxs(mr,{tema:e,children:[M.jsx(et,{icon:"game-icons:burning-book",height:"20",className:"Icon"}),M.jsx("p",{children:"Colecciones"})]}),M.jsxs(mr,{tema:e,children:[M.jsx(et,{icon:"game-icons:double-ringed-orb",height:"22",className:"Icon catalogo"}),M.jsx("p",{children:"PsyQuests"})]}),M.jsxs(mr,{tema:e,children:[M.jsx(et,{icon:"game-icons:steelwing-emblem",height:"22",className:"Icon"}),M.jsx("p",{children:"Facciones"})]}),M.jsxs(mr,{tema:e,children:[M.jsx(et,{icon:"game-icons:rear-aura",height:"20",className:"Icon"}),M.jsx("p",{children:"Perfil"})]})]});function uS(){const[e,t]=_.useState("dark"),n=()=>{t(e==="dark"?"light":"dark")},[r,i]=_.useState("closed"),o=()=>{i(r==="closed"?"open":"closed")};return M.jsx(M.Fragment,{children:M.jsxs(o0,{children:[M.jsx(y1,{}),M.jsx(c0,{tema:e}),M.jsx(g1,{tema:e,handleTemaChange:n,menuOpen:r,handleMenuChange:o}),M.jsx(aS,{tema:e}),M.jsx(Jv,{children:M.jsx(bp,{path:"/psyquesters/",element:M.jsx(sS,{tema:e})})})]})})}Gs.createRoot(document.getElementById("root")).render(M.jsx(B.StrictMode,{children:M.jsx(uS,{})}));
